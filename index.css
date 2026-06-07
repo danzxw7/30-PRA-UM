@@ -298,3 +298,14 @@ caption {
     margin-bottom: 7px;
     color: rgb(70, 36, 36);
 }
+
+.reveal{
+    opacity: 0;
+    transform: translateY(80px);
+    transition: all 0.8s ease;
+}
+
+.reveal.active{
+    opacity: 1;
+    transform: translateY(0);
+}
