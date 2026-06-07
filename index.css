@@ -299,6 +299,8 @@ caption {
     color: rgb(70, 36, 36);
 }
 
+/* SCROLL */
+
 .reveal{
     opacity: 0;
     transform: translateY(80px);
